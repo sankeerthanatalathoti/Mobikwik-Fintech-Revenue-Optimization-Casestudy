@@ -70,45 +70,45 @@ Any insights derived are intended to demonstrate **analytical thinking and probl
 The analysis is based on a synthetic dataset representing a fintech platform’s core operational data. The raw data consists of three primary tables:
 
 - **Customers** — Columns:
-customer_id text 
-signup_date datetime 
-acquisition_channel text 
-campaign_id text 
-gender text 
-date_of_birth datetime 
-city text 
-state text 
-employment_type text 
-annual_income int 
-education_level text 
-marital_status text 
-customer_type text
+customer_id [text ],
+signup_date [datetime ],
+acquisition_channel [text] ,
+campaign_id [text ],
+gender [ text ],
+date_of_birth [datetime] ,
+city [ text ],
+state [text] ,
+employment_type [text] ,
+annual_income [int ],
+education_level [text] ,
+marital_status [ text ],
+customer_type [ text]
 - **Transactions** —Columns:
-transaction_id text 
-customer_id text 
-transaction_date datetime 
-product_type text 
-merchant_category text 
-channel text 
-transaction_amount double 
-fee_amount double 
-revenue_amount double 
-cashback_given double 
-is_first_transaction int 
-transaction_status text
+transaction_id [text] ,
+customer_id [text] ,
+transaction_date [datetime] ,
+product_type [text] ,
+merchant_category [text ],
+channel [text ],
+transaction_amount [double] ,
+fee_amount [double ],
+revenue_amount [double] ,
+cashback_given [double ],
+is_first_transaction [int ],
+transaction_status [text]
 - **Credit Accounts** — Columns:
-credit_account_id text 
-customer_id text 
-credit_product text 
-open_date datetime 
-tenure_months int 
-credit_limit int 
-utilized_amount int 
-total_amount_paid int 
-interest_rate double 
-repayment_status text 
-delinquency_flag int 
-last_payment_date datetime
+credit_account_id [text], 
+customer_id [text ],
+credit_product [text] ,
+open_date [datetime ],
+tenure_months [int ],
+credit_limit [int ],
+utilized_amount [int ],
+total_amount_paid [int ],
+interest_rate [double] ,
+repayment_status [text ],
+delinquency_flag [int ],
+last_payment_date [datetime]
 
 These raw tables were used for exploratory data analysis (EDA) in SQL.
 
