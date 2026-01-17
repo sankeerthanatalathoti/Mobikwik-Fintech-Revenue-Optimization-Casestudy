@@ -422,7 +422,7 @@ subset contributes significantly higher values. This confirms that:
 - ARPU improvement is a critical monetization lever
 
 *(Distribution of Net Transaction Revenue – Python histogram)*
-<img width="529" height="371" alt="distribution_of_net_transaction_revennue_python" src="https://github.com/user-attachments/assets/4d953b85-2342-4b7e-9461-cd4ebb361a22" />
+<p align="left"><img width="529" height="371" alt="distribution_of_net_transaction_revennue_python" src="https://github.com/user-attachments/assets/4d953b85-2342-4b7e-9461-cd4ebb361a22" /></p>
 
 
 ---
@@ -499,9 +499,9 @@ reflect achievable business outcomes rather than speculative growth.
 
 *(Python scenario dictionary / parameter setup)*
 
-<img width="363" height="339" alt="scenario_dictionary" src="https://github.com/user-attachments/assets/226eb287-d8e5-4d2c-9ad5-5405ae6000dc" />
+<p align="left"><img width="363" height="339" alt="scenario_dictionary" src="https://github.com/user-attachments/assets/226eb287-d8e5-4d2c-9ad5-5405ae6000dc" /></p>
 
-<img width="337" height="138" alt="revenue_uplift table" src="https://github.com/user-attachments/assets/e96ee4c4-22d6-43a4-88be-df5d2fbdff08" />
+<p align="right"><img width="337" height="138" alt="revenue_uplift table" src="https://github.com/user-attachments/assets/e96ee4c4-22d6-43a4-88be-df5d2fbdff08" /></p>
 
 
 
