@@ -140,4 +140,22 @@ but monetization efficiency. These findings establish a clear foundation for ide
 revenue leakages, structural gaps, and realistic revenue uplift opportunities through
 targeted optimization rather than scale expansion.
 
+### Revenue Realization vs Revenue Potential
+
+(Place: Revenue KPIs – Total Revenue Potential, Net Transaction Revenue, Projected Interest Revenue)  
+(Place: Monthly Net Transaction Revenue Trend & Monthly Interest Revenue Trend)
+
+The analysis reveals a significant gap between total revenue potential and actual realized
+revenue. While the total revenue potential is estimated at approximately **₹24.7M**, only
+**₹4.60M** is currently realized as net transaction revenue.
+
+A substantial portion of the remaining revenue potential—approximately **80–82%**—is
+concentrated in **projected interest revenue**, which has not yet been converted into realized
+cash. This highlights a structural monetization and realization gap rather than a lack of
+revenue-generating opportunities.
+
+Trend analysis further reinforces this observation. Net transaction revenue exhibits volatility
+over time, while interest revenue remains relatively stable but largely unrealized. Together,
+these patterns indicate that revenue challenges stem from **realization efficiency and
+conversion mechanisms**, not from transaction activity or revenue scale alone.
 
