@@ -354,11 +354,120 @@ This reflects over-dependence on volume-led products at the expense of revenue q
 ---
 ## EXECUTIVE SNAPSHOT (TABLE VIEW)
 
-<h2>EXECUTIVE SNAPSHOT</h2>
-
 <table>
   <tr>
     <td><img width="533" height="541" alt="Insights summary" src="https://github.com/user-attachments/assets/65d62df6-3d13-46c5-945d-407f63469462" /></td>
     <td><img width="585" height="541" alt="Revenue_leakage" src="https://github.com/user-attachments/assets/4bafdad2-1fbe-47cc-b63d-c041b111dd6a" /></td>
   </tr>
 </table>
+---
+## 🧮 Optimization & Scenario Simulation
+
+Power BI (Insights & Revenue Leakages)
+↓
+Python (Diagnostic Analysis & Scenario Simulation)
+↓
+Power BI (What-If Simulation & Optimized Revenue View)
+
+This workflow demonstrates how descriptive insights and identified revenue leakages were
+translated into quantified, business-controlled optimization scenarios using Python, and
+then operationalized back into Power BI as an interactive decision-support framework.
+
+---
+
+## 1️⃣ Why Optimization Was Required  
+*(From Insights to Action)*
+
+The revenue and monetization analysis revealed that growth challenges were not driven by
+customer acquisition or transaction volume, but by **structural inefficiencies in revenue
+realization, customer monetization, and product mix**.
+
+While Power BI dashboards effectively highlighted *where* revenue was leaking, they could
+not answer *how much* revenue could be recovered under different improvement strategies.
+This created the need for a controlled optimization approach to quantify potential revenue
+uplift using levers already within business control.
+
+The optimization objective was therefore defined as:
+- Improve monetization efficiency from existing customers and products  
+- Quantify revenue uplift without increasing customer count or transaction volume  
+- Avoid introducing additional regulatory or credit risk  
+
+---
+
+## 2️⃣ Python Diagnostic Analysis  
+*(Power BI → Python Handoff)*
+
+Python was used to perform deeper diagnostic analysis to validate and quantify the structural
+issues identified in Power BI before designing optimization scenarios. This step ensured
+that scenario assumptions were data-driven and grounded in observed revenue behavior.
+
+### 2.1 Customer Revenue Distribution Analysis
+
+**Purpose:**  
+To assess how revenue is distributed across customers and validate monetization skew.
+
+**Insight:**  
+The distribution of net transaction revenue across customers is highly skewed, with a large
+portion of customers contributing minimal revenue. This reinforces the low ARPU observation
+and confirms that revenue generation is not evenly spread across the customer base.
+
+*(Place: Customer revenue distribution / histogram – Python)*
+
+---
+
+### 2.2 Revenue Concentration Metrics
+
+**Purpose:**  
+To quantify revenue dependency on top customer segments.
+
+**Insight:**  
+Analysis shows that the top ~10% of customers contribute approximately ~20% of net
+transaction revenue. While revenue is not extremely concentrated, this pattern indicates
+meaningful scope for broad-based monetization uplift rather than reliance on a small subset
+of customers.
+
+*(Place: Top 10% revenue contribution output – Python)*
+
+---
+
+### 2.3 Revenue Concentration Curve
+
+**Purpose:**  
+To visualize cumulative revenue contribution across customers sorted by revenue.
+
+**Insight:**  
+The cumulative revenue curve demonstrates that revenue accumulation accelerates slowly
+across the customer base, confirming monetization inefficiency at scale. This visual
+evidence supports the need to improve per-customer revenue contribution rather than
+expanding the customer base.
+
+*(Place: Revenue concentration curve – Python)*
+
+---
+
+## 3️⃣ Scenario Design & Business Assumptions  
+*(From Diagnosis to Modeling)*
+
+Based on the diagnostic findings, multiple revenue optimization scenarios were designed to
+simulate realistic improvements using **business-controlled levers** rather than
+hypothetical growth assumptions.
+
+Four scenarios were defined:
+- **Base:** Current performance with no changes  
+- **Conservative:** Modest, low-risk improvements  
+- **Realistic:** Balanced and operationally feasible improvements  
+- **Optimistic:** Aggressive but less practical improvements  
+
+Each scenario was built using the following monetization levers:
+- **ARPU Improvement:** Through pricing optimization, cross-sell, and usage-based monetization  
+- **Product Mix Optimization:** Shifting transaction share toward higher-margin products  
+- **Interest Revenue Realization:** Improving collections and realization efficiency  
+
+Assumptions were intentionally conservative to ensure that projected uplift reflects
+achievable business outcomes rather than optimistic projections.
+
+*(Place: Python scenario parameter setup / code snippet)*
+
+---
+
+
