@@ -352,3 +352,101 @@ This reflects over-dependence on volume-led products at the expense of revenue q
 *(Source: Product Performance Summary & Efficiency Flags)*
 
 ---
+## EXECUTIVE SNAPSHOT (TABLE VIEW)
+
+<table width="100%">
+  <tr>
+    <!-- LEFT: INSIGHTS -->
+    <td width="50%" valign="top" style="border:1px solid #ddd; padding:12px;">
+      
+      <h3>INSIGHTS</h3>
+
+      <ul>
+        <li><b>Net Transaction Revenue</b> shows high volatility despite growth in transaction activity</li>
+        <li><b>Interest Revenue</b> forms a large portion of total revenue potential but is not fully realized</li>
+        <li><b>Revenue contribution is skewed</b> — majority of customers generate low revenue</li>
+        <li><b>High transaction products</b> (UPI, Wallet, BNPL) drive volume, not profitability</li>
+        <li><b>Structured products</b> (EMI, Card Bill) generate higher revenue per transaction</li>
+        <li><b>ARPU</b> remains low across customer segments</li>
+      </ul>
+
+      <hr>
+
+      <h4>Revenue Realization vs Revenue Potential</h4>
+      <ul>
+        <li>Total Revenue Potential: <b>₹24.7M</b></li>
+        <li>Net Transaction Revenue (Actual): <b>₹4.60M</b></li>
+        <li>Projected Interest Revenue: <b>₹20.10M</b></li>
+        <li>~<b>80–82%</b> of total revenue remains unrealized</li>
+      </ul>
+
+      <h4>Revenue Growth Volatility</h4>
+      <ul>
+        <li>2024 vs 2023: <b>–5.52%</b></li>
+        <li>2025 vs 2024: <b>+9.24%</b></li>
+        <li>Growth remains inconsistent despite rising transactions</li>
+      </ul>
+
+      <h4>Customer Monetization Efficiency</h4>
+      <ul>
+        <li>Active Customers: <b>15,000</b></li>
+        <li>Net Transaction ARPU: <b>₹306–307</b></li>
+        <li>Large base but low monetization per customer</li>
+      </ul>
+
+      <h4>Product Revenue Contribution Pattern</h4>
+      <ul>
+        <li>UPI ≈ <b>40–45%</b> of total transactions</li>
+        <li>EMI / Card Bill ≈ <b>₹51+</b> revenue per transaction</li>
+        <li>High volume ≠ high revenue contribution</li>
+      </ul>
+
+    </td>
+
+    <!-- RIGHT: LEAKAGES -->
+    <td width="50%" valign="top" style="border:1px solid #ddd; padding:12px;">
+      
+      <h3>REVENUE LEAKAGES & LOOPHOLES</h3>
+
+      <h4>Revenue Page</h4>
+      <ul>
+        <li>Revenue growth is <b>unstable month-to-month</b>, indicating weak monetization control</li>
+        <li>Large gap between <b>projected interest revenue</b> and <b>actual realization</b></li>
+      </ul>
+
+      <h4>Customer Page</h4>
+      <ul>
+        <li>High number of active customers but <b>low ARPU</b></li>
+        <li>Long-tenure customers not monetized proportionally to activity</li>
+      </ul>
+
+      <h4>Product Page</h4>
+      <ul>
+        <li>Over-dependence on <b>low-margin products</b> (UPI / Wallet / BNPL)</li>
+        <li>BNPL drives volume but exposes <b>low revenue realization</b> and <b>regulatory risk</b></li>
+      </ul>
+
+      <hr>
+
+      <h4>Revenue Volatility & Monetization Instability</h4>
+      <ul>
+        <li>Monthly Net Transaction Revenue: <b>₹115K–₹138K</b></li>
+        <li>~<b>20%+</b> month-to-month volatility</li>
+        <li>Only <b>18–19%</b> of total revenue potential realized as cash</li>
+      </ul>
+
+      <h4>Revenue Concentration & Tenure Impact</h4>
+      <ul>
+        <li>Top <b>10%</b> customers contribute ~<b>20%</b> of revenue</li>
+        <li>Mature customers:
+          <ul>
+            <li>Count: <b>10,070</b></li>
+            <li>Revenue: <b>₹3.09M</b></li>
+          </ul>
+        </li>
+        <li>Monetization not proportional to tenure</li>
+      </ul>
+
+    </td>
+  </tr>
+</table>
