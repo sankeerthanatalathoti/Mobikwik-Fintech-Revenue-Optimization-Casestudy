@@ -62,3 +62,61 @@ By identifying **high- and low-performing products**, **customer segments**, **r
 This project uses a **synthetic (dummy) dataset** created solely for **analytical and educational purposes**. All data values, metrics, and customer records are simulated and **do not represent actual MobiKwik financials, users, or internal performance**.
 
 Any insights derived are intended to demonstrate **analytical thinking and problem-solving approaches**, and **do not reflect the company’s real business data**.
+
+## 📂 Data & Assumptions
+
+### Data Sources
+
+The analysis is based on a synthetic dataset representing a fintech platform’s core operational data. The raw data consists of three primary tables:
+
+- **Customers** — Columns:
+customer_id text 
+signup_date datetime 
+acquisition_channel text 
+campaign_id text 
+gender text 
+date_of_birth datetime 
+city text 
+state text 
+employment_type text 
+annual_income int 
+education_level text 
+marital_status text 
+customer_type text
+- **Transactions** —Columns:
+transaction_id text 
+customer_id text 
+transaction_date datetime 
+product_type text 
+merchant_category text 
+channel text 
+transaction_amount double 
+fee_amount double 
+revenue_amount double 
+cashback_given double 
+is_first_transaction int 
+transaction_status text
+- **Credit Accounts** — Columns:
+credit_account_id text 
+customer_id text 
+credit_product text 
+open_date datetime 
+tenure_months int 
+credit_limit int 
+utilized_amount int 
+total_amount_paid int 
+interest_rate double 
+repayment_status text 
+delinquency_flag int 
+last_payment_date datetime
+
+These raw tables were used for exploratory data analysis (EDA) in SQL.
+
+### Analytical Views (SQL)
+
+To support business intelligence and dashboarding, the raw tables were transformed into analytical views:
+
+<img width="805" height="538" alt="ER_Diagram_Views" src="https://github.com/user-attachments/assets/02459a38-da62-41c9-bc4c-74fe81d6509b" />
+
+These views were directly consumed in Power BI to ensure consistency, performance, and business-focused analysis.
+
