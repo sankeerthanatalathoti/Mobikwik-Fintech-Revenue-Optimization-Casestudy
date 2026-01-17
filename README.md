@@ -142,8 +142,13 @@ targeted optimization rather than scale expansion.
 
 ### Revenue Realization vs Revenue Potential
 
-(Place: Revenue KPIs – Total Revenue Potential, Net Transaction Revenue, Projected Interest Revenue)  
-(Place: Monthly Net Transaction Revenue Trend & Monthly Interest Revenue Trend)
+(Revenue KPIs – Total Revenue Potential, Net Transaction Revenue, Projected Interest Revenue)  
+<img width="1168" height="209" alt="KPIs" src="https://github.com/user-attachments/assets/4dfbd1a4-0aca-4a2e-afba-73958f00c52b" />
+
+(Monthly Net Transaction Revenue Trend & Monthly Interest Revenue Trend)
+<img width="1019" height="410" alt="Net_Transaction_Revenue" src="https://github.com/user-attachments/assets/37281e48-e26e-4dfa-a317-824cd5cef30e" />
+<img width="1016" height="372" alt="Interest_revenue" src="https://github.com/user-attachments/assets/38b468aa-da7c-4047-b9c1-02a9f9f59c7b" />
+
 
 The analysis reveals a significant gap between total revenue potential and actual realized
 revenue. While the total revenue potential is estimated at approximately **₹24.7M**, only
