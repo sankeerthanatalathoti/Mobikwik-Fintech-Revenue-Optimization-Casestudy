@@ -142,11 +142,14 @@ targeted optimization rather than scale expansion.
 
 ### Revenue Realization vs Revenue Potential
 
-(Revenue KPIs – Total Revenue Potential, Net Transaction Revenue, Projected Interest Revenue)  
+(Revenue KPIs – Total Revenue Potential, Net Transaction Revenue, Projected Interest Revenue) 
+
 <img width="1168" height="209" alt="KPIs" src="https://github.com/user-attachments/assets/4dfbd1a4-0aca-4a2e-afba-73958f00c52b" />
 
 (Monthly Net Transaction Revenue Trend & Monthly Interest Revenue Trend)
+
 <img width="1019" height="410" alt="Net_Transaction_Revenue" src="https://github.com/user-attachments/assets/37281e48-e26e-4dfa-a317-824cd5cef30e" />
+
 <img width="1016" height="372" alt="Interest_revenue" src="https://github.com/user-attachments/assets/38b468aa-da7c-4047-b9c1-02a9f9f59c7b" />
 
 
@@ -163,4 +166,29 @@ Trend analysis further reinforces this observation. Net transaction revenue exhi
 over time, while interest revenue remains relatively stable but largely unrealized. Together,
 these patterns indicate that revenue challenges stem from **realization efficiency and
 conversion mechanisms**, not from transaction activity or revenue scale alone.
+
+
+### Revenue Volatility & Growth Inconsistency
+
+<table>
+  <tr>
+    <td><img width="287" height="155" alt="yoy_growth_perc" src="https://github.com/user-attachments/assets/0e154d46-ef54-44f5-979d-dcdc45dc9259" /></td>
+    <td><img width="389" height="508" alt="MoM_Growth_perc" src="https://github.com/user-attachments/assets/e463317d-1af1-4430-ac88-77ac36e79c5d" /></td>
+  </tr>
+</table>
+
+(Place: YoY Net Transaction Revenue Growth KPI & MoM Revenue Growth visual)
+
+The analysis indicates that net transaction revenue growth is inconsistent across time
+periods, reflecting instability rather than sustained momentum. While revenue declined by
+**–5.52% in 2024**, it recovered by **+9.24% in 2025**, highlighting a reactive growth pattern
+instead of steady, compounding growth.
+
+Month-on-month revenue growth further reinforces this volatility, with frequent positive and
+negative fluctuations. These swings suggest that revenue performance is sensitive to short-term
+factors and lacks structural stability.
+
+Overall, the observed volatility indicates weak revenue predictability and limited monetization
+control. Despite ongoing transaction activity, revenue growth remains uneven—reinforcing that
+usage growth alone is insufficient to ensure sustainable revenue performance.
 
