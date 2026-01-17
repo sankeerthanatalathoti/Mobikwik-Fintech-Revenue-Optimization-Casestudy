@@ -468,7 +468,7 @@ This pattern reinforces that:
   targeting only high-revenue customers
 
 *(Revenue Concentration Curve – Python)*
-<img width="478" height="372" alt="revenue_concentration curve" src="https://github.com/user-attachments/assets/dc677831-028d-4b74-82ec-f84011acba99" />
+<p align="left"><img width="478" height="372" alt="revenue_concentration curve" src="https://github.com/user-attachments/assets/dc677831-028d-4b74-82ec-f84011acba99" /></p>
 
 ---
 
