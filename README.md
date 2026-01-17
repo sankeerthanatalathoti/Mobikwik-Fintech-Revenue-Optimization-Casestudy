@@ -512,3 +512,108 @@ reflect achievable business outcomes rather than speculative growth.
 - Product-level revenue patterns justify **product mix optimization**
 - Scenarios directly address identified monetization leakages without increasing
   customer count or transaction volume
+
+## 4️⃣ Scenario Simulation Results  
+*(Python-Based Revenue Uplift Summary)*
+
+Revenue scenarios were simulated in Python by applying incremental improvements
+across three monetization levers: ARPU uplift, product mix optimization, and
+interest revenue realization.
+
+The simulation compares projected total revenue under four scenarios:
+Base, Conservative, Realistic, and Optimistic. Results show a clear and
+progressive increase in revenue uplift as monetization efficiency improves.
+
+*(Place: Python scenario results table)*  
+*(Place: Revenue uplift by scenario – bar chart)*
+
+**Key takeaway:**  
+Meaningful revenue uplift is achievable through controlled monetization
+improvements, without relying on customer growth or transaction volume expansion.
+
+
+## 📈 Revenue Forecast & Scenario Simulation (Power BI)
+
+This section operationalizes the Python-based optimization results into an
+interactive Power BI simulation, enabling stakeholders to evaluate realistic
+revenue uplift through monetization efficiency rather than scale-driven growth.
+
+---
+
+### What-If Simulation Objective
+
+- Evaluate how revenue can be improved **without increasing customer acquisition**
+- Focus on **monetization efficiency**, not transaction volume growth
+- Simulate **business-controlled levers** identified from revenue leakages and gaps
+
+---
+
+### Selected Revenue Optimization Levers  
+*(Realistic Scenario)*
+
+**1. ARPU Improvement**
+- Base Net Transaction ARPU: ₹[306–307]
+- Simulated Increase: **+10%**
+- Driven by:
+  - Better pricing strategies
+  - Cross-sell opportunities
+  - Usage-based monetization
+
+**2. Product Mix Optimization**
+- ~5% transaction share shift  
+- From low-margin products (UPI / Wallet / BNPL)  
+- To higher-margin products (EMI / Card Bill)  
+- Improves revenue quality without increasing transaction volume
+
+**3. Interest Revenue Realization**
+- Base Projected Interest Revenue: ₹[20.10M]
+- Simulated Improvement: **+10%**
+- Represents:
+  - Improved collections
+  - Better repayment behavior
+  - Reduced realization leakage
+
+---
+
+### Optimization Impact Overview  
+*(Baseline vs Optimized — Realistic Scenario)*
+
+**Revenue Comparison**
+- Base Net Transaction Revenue: ₹[4.60M]
+- Optimized Net Transaction Revenue: ₹[5.31M]
+
+- Base Interest Revenue (Projected): ₹[20.10M]
+- Optimized Interest Revenue: ₹[22.12M]
+
+- Base Total Revenue Potential: ₹[24.70M]
+- Optimized Total Revenue: ₹[27.43M]
+
+**Revenue Impact**
+- Absolute Revenue Increase: **₹[~2.72M]**
+- Total Revenue Uplift: **~11.0%**
+
+**Achieved Without**
+- Increasing customer count
+- Increasing transaction volume
+- Increasing risk exposure
+
+---
+
+### Scenario Assumptions & Business Validity
+
+- Conservative and realistic assumptions applied
+- No aggressive growth or optimistic bias
+- Scenario aligns with:
+  - Regulatory constraints
+  - Fintech industry focus on profitability
+
+Results represent **achievable business outcomes**, not speculative projections.
+
+---
+
+### Key Takeaway
+
+By improving ARPU, optimizing product mix, and increasing interest realization,
+fintech platforms can unlock **~11% revenue growth** through monetization
+efficiency alone—without relying on customer acquisition or transaction volume
+expansion.
