@@ -354,18 +354,22 @@ This reflects over-dependence on volume-led products at the expense of revenue q
 ---
 ## EXECUTIVE SNAPSHOT (TABLE VIEW)
 
-<table width="100%">
+<h2>EXECUTIVE SNAPSHOT</h2>
+
+<table width="100%" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="50%" valign="top" style="border:1px solid #ddd; padding:12px;">
+    <!-- LEFT BOX -->
+    <td width="50%" valign="top" style="border:1px solid #dcdcdc; padding:16px; background-color:#fafafa;">
+      
       <h3>INSIGHTS</h3>
 
       <ul>
-        <li><b>Net Transaction Revenue</b> shows high volatility despite growth in transaction activity</li>
-        <li><b>Interest Revenue</b> forms a large portion of total revenue potential but is not fully realized</li>
-        <li><b>Revenue contribution is skewed</b> — majority of customers generate low revenue</li>
-        <li><b>High transaction products</b> (UPI, Wallet, BNPL) drive volume, not profitability</li>
-        <li><b>Structured products</b> (EMI, Card Bill) generate higher revenue per transaction</li>
-        <li><b>ARPU</b> remains low across customer segments</li>
+        <li><b>Net Transaction Revenue</b> shows high volatility despite steady growth in transaction volume.</li>
+        <li><b>Interest Revenue</b> contributes significantly to total revenue potential but remains largely unrealized.</li>
+        <li><b>Revenue distribution is highly skewed</b>, where a majority of customers contribute minimal revenue.</li>
+        <li><b>High-frequency products</b> such as UPI, Wallet, and BNPL drive transaction volume but offer low margins.</li>
+        <li><b>Structured products</b> (EMI, Card Bill payments) generate higher revenue per transaction.</li>
+        <li><b>ARPU remains low</b> across most customer segments despite a large active customer base.</li>
       </ul>
 
       <hr>
@@ -382,30 +386,41 @@ This reflects over-dependence on volume-led products at the expense of revenue q
       <ul>
         <li>Active Customers: <b>15,000</b></li>
         <li>Net Transaction ARPU: <b>₹306–307</b></li>
-        <li>Large base but low monetization per customer</li>
+        <li>Large customer base but low monetization per customer</li>
       </ul>
+
     </td>
 
-    <td width="50%" valign="top" style="border:1px solid #ddd; padding:12px;">
+    <!-- RIGHT BOX -->
+    <td width="50%" valign="top" style="border:1px solid #dcdcdc; padding:16px; background-color:#ffffff;">
+      
       <h3>REVENUE LEAKAGES & LOOPHOLES</h3>
 
       <ul>
-        <li>Revenue growth is unstable month-to-month</li>
-        <li>Large gap between projected interest revenue and realization</li>
-        <li>Low ARPU despite large active customer base</li>
-        <li>Long-tenure customers not monetized proportionally</li>
-        <li>Over-dependence on low-margin products (UPI / Wallet / BNPL)</li>
-        <li>BNPL drives volume but exposes low realization and regulatory risk</li>
+        <li>Month-to-month revenue growth remains unstable despite consistent transaction activity.</li>
+        <li>Significant gap between projected interest revenue and actual realization.</li>
+        <li>Low ARPU indicates under-monetization of the existing active customer base.</li>
+        <li>Long-tenure customers do not generate proportionately higher revenue.</li>
+        <li>Excessive dependence on low-margin products (UPI, Wallet, BNPL).</li>
+        <li>BNPL contributes to volume growth but exposes the business to low realization and regulatory risks.</li>
       </ul>
 
       <hr>
 
       <h4>Revenue Volatility & Monetization Instability</h4>
       <ul>
-        <li>Monthly Net Transaction Revenue: <b>₹115K–₹138K</b></li>
-        <li><b>20%+</b> month-to-month volatility</li>
+        <li>Monthly Net Transaction Revenue: <b>₹115K – ₹138K</b></li>
+        <li><b>20%+</b> month-over-month revenue volatility</li>
         <li>Only <b>18–19%</b> of revenue potential realized as cash</li>
       </ul>
+
+      <h4>Structural Gaps Identified</h4>
+      <ul>
+        <li>Lack of pricing differentiation across customer segments</li>
+        <li>Limited cross-sell and upsell of high-margin financial products</li>
+        <li>Insufficient monetization strategies for mature and loyal users</li>
+      </ul>
+
     </td>
   </tr>
 </table>
