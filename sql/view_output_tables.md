@@ -1,4 +1,4 @@
-SQL View Output Tables – Documentation
+# SQL View Output Tables – Documentation
 =====================================
 
 This file documents the output of the analytical SQL views created in `views.sql`.
@@ -9,7 +9,7 @@ All screenshots are uploaded in the `sql/` directory and named according to the
 corresponding view.
 
 ------------------------------------------------------------
-1. Revenue Time Series View
+## 1. Revenue Time Series View
 ------------------------------------------------------------
 View Name:
 vw_pillar1_revenue_time_series
@@ -32,9 +32,12 @@ Use Case:
 Screenshot Reference:
 revenue_time_series_view_image_output.png
 
+<img width="934" height="296" alt="revenue_time_series_view_image_output" src="https://github.com/user-attachments/assets/cb3d68a3-3a56-42a1-a77d-64c6a792c60b" />
+
+
 
 ------------------------------------------------------------
-2. Customer Performance View
+## 2. Customer Performance View
 ------------------------------------------------------------
 View Name:
 vw_pillar1_customer_performance
@@ -54,9 +57,12 @@ Use Case:
 Screenshot Reference:
 cx_view_image_output.png
 
+<img width="1739" height="283" alt="cx_view_image_output" src="https://github.com/user-attachments/assets/04ba10a9-7a21-4b99-92d8-4dc90916fa98" />
+
+
 
 ------------------------------------------------------------
-3. Product Performance View
+## 3. Product Performance View
 ------------------------------------------------------------
 View Name:
 vw_pillar1_product_performance
@@ -82,6 +88,8 @@ Use Case:
 
 Screenshot Reference:
 product_view_image_output.png
+
+<img width="1296" height="131" alt="product_view_image_output" src="https://github.com/user-attachments/assets/ec09e453-ec0f-495b-af1c-e26b91f5a10b" />
 
 
 ------------------------------------------------------------
