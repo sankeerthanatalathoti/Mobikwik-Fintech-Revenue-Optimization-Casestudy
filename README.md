@@ -278,7 +278,10 @@ patterns** in the next section.
 
 ### Product Volume vs Revenue Contribution Mismatch
 
-(Place: Product-wise Transaction Volume & Product-wise Revenue Contribution visuals side by side)
+( Product-wise Transaction Volume & Product-wise Revenue Contribution)
+
+<img width="857" height="287" alt="product_performance_table" src="https://github.com/user-attachments/assets/d91ea6fe-a74f-40bc-9d2a-01fb5520d9b7" />
+
 
 Product-level analysis reveals a clear mismatch between transaction volume and revenue
 contribution. **UPI** accounts for the largest share of total transactions (over 40,000),
@@ -293,8 +296,6 @@ and revenue.
 ---
 
 ### Revenue Quality Across Products
-
-(Place: Product Performance Summary table with efficiency flags)
 
 The average revenue per transaction across the platform is approximately **₹51.15**.
 However, this average masks significant variation across products. Structured products
