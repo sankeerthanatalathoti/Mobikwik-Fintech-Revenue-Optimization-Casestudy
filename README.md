@@ -140,6 +140,12 @@ but monetization efficiency. These findings establish a clear foundation for ide
 revenue leakages, structural gaps, and realistic revenue uplift opportunities through
 targeted optimization rather than scale expansion.
 
+##  Revenue Performance Overview
+
+The analysis shows that net transaction revenue remains highly volatile despite consistent
+transaction activity on the platform. Monthly revenue trends exhibit frequent fluctuations,
+indicating limited revenue predictability and weak monetization contro
+
 ### Revenue Realization vs Revenue Potential
 
 (Revenue KPIs – Total Revenue Potential, Net Transaction Revenue, Projected Interest Revenue) 
