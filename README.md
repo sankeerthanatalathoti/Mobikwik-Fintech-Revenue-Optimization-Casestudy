@@ -577,6 +577,8 @@ revenue uplift through monetization efficiency rather than scale-driven growth.
 
 ### Optimization Impact Overview  
 *(Baseline vs Optimized — Realistic Scenario)*
+<p align="left"><img width="531" height="364" alt="comparision" src="https://github.com/user-attachments/assets/1acb4469-0c11-4659-89c2-707dc70bdb9e" /></p>
+
 
 **Revenue Comparison**
 - Base Net Transaction Revenue: ₹[4.60M]
