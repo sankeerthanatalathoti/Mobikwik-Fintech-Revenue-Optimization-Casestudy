@@ -119,7 +119,8 @@ These raw tables were used for exploratory data analysis (EDA) in SQL.
 The raw transactional tables were transformed into analytical SQL views and then consumed directly in Power BI. This ensured business-ready metrics, consistent calculations, and optimized dashboard performance.
 
 <img width="805" height="538" alt="ER_Diagram_Views" src="https://github.com/user-attachments/assets/02459a38-da62-41c9-bc4c-74fe81d6509b" />
-## 📊 Executive Summary
+
+### 📊 Executive Summary
 
 This analysis evaluates revenue sustainability and monetization effectiveness for a fintech
 platform operating at scale. Despite strong transaction activity and a large active customer base,
