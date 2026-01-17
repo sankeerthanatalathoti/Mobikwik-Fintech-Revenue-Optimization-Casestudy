@@ -114,9 +114,31 @@ These raw tables were used for exploratory data analysis (EDA) in SQL.
 
 ### Analytical Views (SQL)
 
-To support business intelligence and dashboarding, the raw tables were transformed into analytical views:
+### Analytical Data Model (SQL → Power BI)
+
+The raw transactional tables were transformed into analytical SQL views and then consumed directly in Power BI. This ensured business-ready metrics, consistent calculations, and optimized dashboard performance.
 
 <img width="805" height="538" alt="ER_Diagram_Views" src="https://github.com/user-attachments/assets/02459a38-da62-41c9-bc4c-74fe81d6509b" />
+## 📊 Executive Summary
 
-These views were directly consumed in Power BI to ensure consistency, performance, and business-focused analysis.
+This analysis evaluates revenue sustainability and monetization effectiveness for a fintech
+platform operating at scale. Despite strong transaction activity and a large active customer base,
+the findings reveal significant structural inefficiencies in revenue realization.
+
+The data highlights high volatility in net transactional revenue, indicating weak revenue
+predictability despite growing usage. A substantial portion of total revenue potential remains
+unrealized, with projected interest revenue forming the majority of the gap between potential
+and realized earnings.
+
+Customer-level analysis shows that monetization remains low even across long-tenure and active
+users, resulting in limited revenue per customer at scale. Product-level insights further
+demonstrate an inefficient product mix, where high-volume products drive transaction count
+but contribute disproportionately low revenue, while structured credit products generate
+higher revenue per transaction.
+
+Overall, the analysis confirms that the core business challenge is not transaction growth,
+but monetization efficiency. These findings establish a clear foundation for identifying
+revenue leakages, structural gaps, and realistic revenue uplift opportunities through
+targeted optimization rather than scale expansion.
+
 
