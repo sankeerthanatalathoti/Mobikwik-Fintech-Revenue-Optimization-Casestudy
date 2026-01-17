@@ -177,7 +177,6 @@ conversion mechanisms**, not from transaction activity or revenue scale alone.
   </tr>
 </table>
 
-(Place: YoY Net Transaction Revenue Growth KPI & MoM Revenue Growth visual)
 
 The analysis indicates that net transaction revenue growth is inconsistent across time
 periods, reflecting instability rather than sustained momentum. While revenue declined by
@@ -192,3 +191,84 @@ Overall, the observed volatility indicates weak revenue predictability and limit
 control. Despite ongoing transaction activity, revenue growth remains uneven—reinforcing that
 usage growth alone is insufficient to ensure sustainable revenue performance.
 
+## Customer Monetization Efficiency
+
+This section evaluates how effectively the platform monetizes its active customer base.
+The objective is to understand whether customer scale and engagement translate into
+proportional revenue contribution.
+
+---
+
+### Customer Monetization Overview
+
+(Customer KPIs – Active Customers & ARPU screenshot)
+
+<img width="726" height="149" alt="APRU" src="https://github.com/user-attachments/assets/541b45d7-ae4d-4b25-85c1-1ed8d654a711" />
+
+
+The platform serves a large active customer base of approximately **15,000 users**.
+However, the **net transaction ARPU** remains limited at around **₹306–307**, indicating
+that average revenue generated per user is low when distributed across the entire
+customer base.
+
+This suggests that while customer adoption and activity are strong, monetization at
+scale remains inefficient.
+
+---
+
+### ARPU vs Customer Scale Mismatch
+
+(ARPU KPI & ARPC / Customer Revenue Distribution screenshot)
+
+<img width="630" height="112" alt="ARPC Vs ARPU" src="https://github.com/user-attachments/assets/1d923292-0419-4cba-8ff0-2a5f0370ebf7" />
+
+
+A closer examination of customer-level monetization reveals a clear mismatch between
+customer scale and revenue contribution. While **ARPU remains low at ₹306–307**, the
+**average revenue per contributing customer (ARPC)** is significantly higher at
+approximately **₹1,647**.
+
+This disparity indicates that **only a subset of customers is responsible for generating
+meaningful revenue**, while a large portion of active users contributes minimal revenue
+despite being transactionally active.
+
+In effect, customer scale exists, but revenue does not scale proportionally with it.
+Incremental users are adding transaction volume, but not equivalent revenue value,
+highlighting under-monetization across the broader customer base.
+
+---
+
+### Customer Tenure & Monetization Quality
+
+(Customer Tenure – Revenue & Profitability Status – Revenue visuals side by side)
+
+<img width="727" height="345" alt="cx_Tenure Vs Profitability status" src="https://github.com/user-attachments/assets/44ba2f71-0a0b-4124-8ee8-daaa01e9936e" />
+
+
+Customer-level analysis indicates that **mature customers contribute the highest share of
+revenue (₹3.09M)**. However, this contribution is primarily driven by customer longevity
+rather than a meaningful increase in monetization efficiency.
+
+At the same time, revenue quality analysis shows that value creation is concentrated
+within **profitable customers**, while loss-making and low-margin segments contribute
+limited sustainable revenue. This suggests that only a subset of retained customers
+generates consistent value.
+
+Together, these patterns highlight that extended customer tenure does not automatically
+translate into higher-quality revenue. Monetization plateaus over time, indicating missed
+opportunities for tenure-based monetization, differentiated pricing, or targeted
+cross-sell strategies.
+
+---
+
+### Key Customer-Level Insights
+
+- Large active customer base, but low average revenue per user (ARPU)  
+- Revenue contribution is concentrated among a smaller subset of customers (higher ARPC)  
+- Customer scale does not translate into proportional revenue growth  
+- Retention without monetization uplift limits customer lifetime value  
+
+These insights confirm that customer count is not the primary constraint. Instead,
+the challenge lies in improving **monetization efficiency across the existing customer
+base**, which naturally leads to examining **product usage and revenue contribution
+patterns** in the next section.
