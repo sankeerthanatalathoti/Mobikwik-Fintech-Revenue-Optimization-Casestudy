@@ -7,42 +7,9 @@ fintech and data-driven organizations.
 
 ### High-Level Architecture Flow
 
+![Analytics Architecture Flow]
+<img width="703" height="957" alt="Mobikwik_Analytics _Architecture_Flow drawio" src="https://github.com/user-attachments/assets/80504df2-6176-41ea-8a42-101a967375ee" />
 
-   ┌───────────────────────┐
-    │   Cloud Storage       │
-    │   (AWS S3 - Concept)  │
-    └──────────┬────────────┘
-               │
-               ▼
-    ┌───────────────────────┐
-    │  Flat Files (CSV /     │
-    │  Excel Downloads)     │
-    └──────────┬────────────┘
-               │
-               ▼
-    ┌───────────────────────┐
-    │   SQL Database        │
-    │   - Views             │
-    │   - KPIs              │
-    │   - Aggregations      │
-    └───────┬─────────┬─────┘
-            │         │
-            ▼         ▼
- ┌────────────────┐  ┌──────────────────┐
- │ Python Analytics│  │ Power BI         │
- │ - Forecasting   │  │ - Dashboards     │
- │ - Scenarios     │  │ - KPIs           │
- └────────┬───────┘  └────────┬─────────┘
-          │                   │
-          └──────────┬────────┘
-                     ▼
-          ┌───────────────────────┐
-          │ Business Insights     │
-          │ Revenue Optimization  │
-          │ Scenario Simulation   │
-          └───────────────────────┘
-
----
 
 ### Layer-wise Explanation
 
