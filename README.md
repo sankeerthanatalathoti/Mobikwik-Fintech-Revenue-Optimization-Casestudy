@@ -498,28 +498,8 @@ Scenario parameters were intentionally conservative to ensure that uplift estima
 reflect achievable business outcomes rather than speculative growth.
 
 *(Python scenario dictionary / parameter setup)*
-scenarios = {
-    "Base": {
-        "arpu_increase": 0.00,
-        "product_mix_uplift": 0.00,
-        "interest_realization": 0.00
-    },
-    "Conservative": {
-        "arpu_increase": 0.05,      # +5% ARPU
-        "product_mix_uplift": 0.03, # +3% net revenue
-        "interest_realization": 0.05
-    },
-    "Realistic": {
-        "arpu_increase": 0.10,      # +10% ARPU
-        "product_mix_uplift": 0.05, # +5% net revenue
-        "interest_realization": 0.10
-    },
-    "Optimistic": {
-        "arpu_increase": 0.15,      # +15% ARPU
-        "product_mix_uplift": 0.08, # +8% net revenue
-        "interest_realization": 0.15
-    }
-}
+
+<img width="363" height="339" alt="scenario_dictionary" src="https://github.com/user-attachments/assets/226eb287-d8e5-4d2c-9ad5-5405ae6000dc" />
 
 <img width="337" height="138" alt="revenue_uplift table" src="https://github.com/user-attachments/assets/e96ee4c4-22d6-43a4-88be-df5d2fbdff08" />
 
