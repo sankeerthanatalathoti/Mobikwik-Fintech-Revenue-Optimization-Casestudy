@@ -421,7 +421,9 @@ subset contributes significantly higher values. This confirms that:
 - Platform scale does not translate into proportional revenue per customer
 - ARPU improvement is a critical monetization lever
 
-*(Place: Distribution of Net Transaction Revenue – Python histogram)*
+*(Distribution of Net Transaction Revenue – Python histogram)*
+<img width="529" height="371" alt="distribution_of_net_transaction_revennue_python" src="https://github.com/user-attachments/assets/4d953b85-2342-4b7e-9461-cd4ebb361a22" />
+
 
 ---
 
@@ -441,7 +443,12 @@ calculated. The analysis shows that:
 This indicates that meaningful revenue uplift can be achieved through **broad-based
 ARPU improvement**, rather than reliance on a narrow customer segment.
 
-*(Place: Top 10% revenue contribution output – Python)*
+**Revenue Concentration Metric (Python Output)**  
+ *np.float64(0.194453019623353)*
+- Top 10% of customers contribute approximately **~19.45%** of Net Transaction Revenue  
+- Indicates moderate revenue concentration with scope for broad-based ARPU uplift  
+
+*(Derived from Python-based cumulative revenue calculation)*
 
 ---
 
@@ -460,7 +467,8 @@ This pattern reinforces that:
 - Incremental monetization across a wide customer base is more impactful than
   targeting only high-revenue customers
 
-*(Place: Revenue Concentration Curve – Python)*
+*(Revenue Concentration Curve – Python)*
+<img width="478" height="372" alt="revenue_concentration curve" src="https://github.com/user-attachments/assets/dc677831-028d-4b74-82ec-f84011acba99" />
 
 ---
 
@@ -489,7 +497,33 @@ Each scenario adjusts three key monetization levers:
 Scenario parameters were intentionally conservative to ensure that uplift estimates
 reflect achievable business outcomes rather than speculative growth.
 
-*(Place: Python scenario dictionary / parameter setup)*
+*(Python scenario dictionary / parameter setup)*
+scenarios = {
+    "Base": {
+        "arpu_increase": 0.00,
+        "product_mix_uplift": 0.00,
+        "interest_realization": 0.00
+    },
+    "Conservative": {
+        "arpu_increase": 0.05,      # +5% ARPU
+        "product_mix_uplift": 0.03, # +3% net revenue
+        "interest_realization": 0.05
+    },
+    "Realistic": {
+        "arpu_increase": 0.10,      # +10% ARPU
+        "product_mix_uplift": 0.05, # +5% net revenue
+        "interest_realization": 0.10
+    },
+    "Optimistic": {
+        "arpu_increase": 0.15,      # +15% ARPU
+        "product_mix_uplift": 0.08, # +8% net revenue
+        "interest_realization": 0.15
+    }
+}
+
+<img width="337" height="138" alt="revenue_uplift table" src="https://github.com/user-attachments/assets/e96ee4c4-22d6-43a4-88be-df5d2fbdff08" />
+
+
 
 ---
 
