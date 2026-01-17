@@ -361,6 +361,7 @@ This reflects over-dependence on volume-led products at the expense of revenue q
   </tr>
 </table>
 ---
+
 ## 🧮 Optimization & Scenario Simulation
 
 Power BI (Insights & Revenue Leakages)
@@ -397,34 +398,48 @@ The optimization objective was therefore defined as:
 ## 2️⃣ Python Diagnostic Analysis  
 *(Power BI → Python Handoff)*
 
-Python was used to perform deeper diagnostic analysis to validate and quantify the structural
-issues identified in Power BI before designing optimization scenarios. This step ensured
-that scenario assumptions were data-driven and grounded in observed revenue behavior.
+Python was used to perform deeper diagnostic analysis to **quantify and validate**
+the monetization inefficiencies identified in Power BI. These analyses ensured that
+subsequent optimization scenarios were grounded in actual revenue behavior rather
+than assumptions.
+
+---
 
 ### 2.1 Customer Revenue Distribution Analysis
 
-**Purpose:**  
-To assess how revenue is distributed across customers and validate monetization skew.
+**Purpose**  
+To analyze how net transaction revenue is distributed across individual customers
+and validate the importance of ARPU-driven monetization.
 
-**Insight:**  
-The distribution of net transaction revenue across customers is highly skewed, with a large
-portion of customers contributing minimal revenue. This reinforces the low ARPU observation
-and confirms that revenue generation is not evenly spread across the customer base.
+**What the Analysis Shows**  
+The distribution of net transaction revenue per customer is **right-skewed**, with
+the majority of customers clustered in the lower revenue range and a long tail of
+higher-revenue customers.
 
-*(Place: Customer revenue distribution / histogram – Python)*
+Most customers generate relatively low net transaction revenue, while a smaller
+subset contributes significantly higher values. This confirms that:
+- Platform scale does not translate into proportional revenue per customer
+- ARPU improvement is a critical monetization lever
+
+*(Place: Distribution of Net Transaction Revenue – Python histogram)*
 
 ---
 
 ### 2.2 Revenue Concentration Metrics
 
-**Purpose:**  
-To quantify revenue dependency on top customer segments.
+**Purpose**  
+To quantify the contribution of top-performing customers to total net transaction
+revenue and assess concentration risk.
 
-**Insight:**  
-Analysis shows that the top ~10% of customers contribute approximately ~20% of net
-transaction revenue. While revenue is not extremely concentrated, this pattern indicates
-meaningful scope for broad-based monetization uplift rather than reliance on a small subset
-of customers.
+**What the Analysis Shows**  
+Customers were sorted by net transaction revenue, and cumulative revenue share was
+calculated. The analysis shows that:
+- The top ~10% of customers contribute approximately **~19–20%** of total net
+  transaction revenue
+- Revenue is **moderately concentrated**, but not dominated by a small elite group
+
+This indicates that meaningful revenue uplift can be achieved through **broad-based
+ARPU improvement**, rather than reliance on a narrow customer segment.
 
 *(Place: Top 10% revenue contribution output – Python)*
 
@@ -432,42 +447,56 @@ of customers.
 
 ### 2.3 Revenue Concentration Curve
 
-**Purpose:**  
-To visualize cumulative revenue contribution across customers sorted by revenue.
+**Purpose**  
+To visually assess cumulative revenue contribution across the customer base when
+customers are ordered by revenue.
 
-**Insight:**  
-The cumulative revenue curve demonstrates that revenue accumulation accelerates slowly
-across the customer base, confirming monetization inefficiency at scale. This visual
-evidence supports the need to improve per-customer revenue contribution rather than
-expanding the customer base.
+**What the Analysis Shows**  
+The cumulative revenue curve rises gradually, indicating that revenue accumulation
+is spread across a large portion of customers rather than concentrated at the top.
 
-*(Place: Revenue concentration curve – Python)*
+This pattern reinforces that:
+- Revenue inefficiency exists at scale
+- Incremental monetization across a wide customer base is more impactful than
+  targeting only high-revenue customers
+
+*(Place: Revenue Concentration Curve – Python)*
 
 ---
 
 ## 3️⃣ Scenario Design & Business Assumptions  
 *(From Diagnosis to Modeling)*
 
-Based on the diagnostic findings, multiple revenue optimization scenarios were designed to
-simulate realistic improvements using **business-controlled levers** rather than
-hypothetical growth assumptions.
+Based on the diagnostic findings, multiple revenue optimization scenarios were
+designed to simulate **realistic, controllable improvements** using existing
+customers and products.
+
+### Scenario Structure
 
 Four scenarios were defined:
-- **Base:** Current performance with no changes  
-- **Conservative:** Modest, low-risk improvements  
-- **Realistic:** Balanced and operationally feasible improvements  
-- **Optimistic:** Aggressive but less practical improvements  
 
-Each scenario was built using the following monetization levers:
-- **ARPU Improvement:** Through pricing optimization, cross-sell, and usage-based monetization  
-- **Product Mix Optimization:** Shifting transaction share toward higher-margin products  
-- **Interest Revenue Realization:** Improving collections and realization efficiency  
+- **Base:** Current revenue performance (no changes)
+- **Conservative:** Small, low-risk improvements
+- **Realistic:** Balanced and operationally feasible improvements
+- **Optimistic:** Aggressive improvement assumptions
 
-Assumptions were intentionally conservative to ensure that projected uplift reflects
-achievable business outcomes rather than optimistic projections.
+Each scenario adjusts three key monetization levers:
 
-*(Place: Python scenario parameter setup / code snippet)*
+- **ARPU Improvement:** Incremental uplift in net transaction revenue per customer  
+- **Product Mix Optimization:** Shift toward higher-margin products  
+- **Interest Revenue Realization:** Improved realization of projected interest income  
+
+Scenario parameters were intentionally conservative to ensure that uplift estimates
+reflect achievable business outcomes rather than speculative growth.
+
+*(Place: Python scenario dictionary / parameter setup)*
 
 ---
 
+### Key Alignment with Diagnostics
 
+- Customer revenue distribution supports **ARPU-driven optimization**
+- Moderate revenue concentration supports **broad-based monetization uplift**
+- Product-level revenue patterns justify **product mix optimization**
+- Scenarios directly address identified monetization leakages without increasing
+  customer count or transaction volume
