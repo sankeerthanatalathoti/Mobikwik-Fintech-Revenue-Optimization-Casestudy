@@ -9,7 +9,7 @@ CUSTOMER PERFORMANCE MEASURES
 ------------------------------------------------------------
 
 ### Average Revenue per Customer (ARPU)
-
+```DAX
 Avg Revenue per Customer =
 DIVIDE (
     SUM ( 'fintech_database vw_customer_performance'[total_revenue] ),
