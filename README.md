@@ -272,3 +272,36 @@ These insights confirm that customer count is not the primary constraint. Instea
 the challenge lies in improving **monetization efficiency across the existing customer
 base**, which naturally leads to examining **product usage and revenue contribution
 patterns** in the next section.
+
+
+##  Product Performance & Revenue Contribution
+
+### Product Volume vs Revenue Contribution Mismatch
+
+(Place: Product-wise Transaction Volume & Product-wise Revenue Contribution visuals side by side)
+
+Product-level analysis reveals a clear mismatch between transaction volume and revenue
+contribution. **UPI** accounts for the largest share of total transactions (over 40,000),
+yet generates relatively lower revenue per transaction, classifying it as a
+**high-volume, low-margin** product.
+
+In contrast, **BNPL and EMI** products operate at lower transaction volumes but exhibit
+higher revenue efficiency, indicating stronger monetization per transaction. Wallet and
+Card Bill payments fall into a balanced category, contributing moderately to both volume
+and revenue.
+
+---
+
+### Revenue Quality Across Products
+
+(Place: Product Performance Summary table with efficiency flags)
+
+The average revenue per transaction across the platform is approximately **₹51.15**.
+However, this average masks significant variation across products. Structured products
+such as **EMI and BNPL** demonstrate higher revenue efficiency, while **UPI and Wallet**
+drive usage but dilute overall revenue quality.
+
+These patterns indicate that the current product mix prioritizes transaction volume over
+revenue efficiency, contributing to underperformance in realized revenue despite high
+platform activity.
+
