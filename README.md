@@ -300,15 +300,55 @@ Card Bill payments fall into a balanced category, contributing moderately to bot
 and revenue.
 
 ---
+## 🚨 Revenue Leakages & Structural Loopholes
 
-### Revenue Quality Across Products
+This section consolidates insights across revenue, customer, and product analyses to
+identify where revenue is being lost, under-realized, or structurally constrained.
 
-The average revenue per transaction across the platform is approximately **₹51.15**.
-However, this average masks significant variation across products. Structured products
-such as **EMI and BNPL** demonstrate higher revenue efficiency, while **UPI and Wallet**
-drive usage but dilute overall revenue quality.
+---
 
-These patterns indicate that the current product mix prioritizes transaction volume over
-revenue efficiency, contributing to underperformance in realized revenue despite high
-platform activity.
+### 1️⃣ Revenue Volatility & Monetization Instability
 
+- Monthly net transaction revenue fluctuates between approximately **₹115K–₹138K**,
+  indicating **~20%+ month-to-month volatility**
+- Net Transaction Revenue (actual realized cash): **₹4.60M**
+- Total Revenue Potential: **₹24.70M**
+- Only **~18–19%** of total revenue potential is currently realized as cash
+
+These patterns indicate weak monetization control and limited revenue predictability,
+despite strong transaction activity.
+  
+*(Source: Revenue Performance Trends & KPIs)*
+
+---
+
+### 2️⃣ Revenue Concentration & Tenure Impact
+
+- Top **~10% of customers contribute ~20%** of net transaction revenue  
+  → Revenue is moderately concentrated, but broad-based ARPU uplift remains possible
+- Long-tenure (Mature) customers:
+  - Customer count: **~10,070**
+  - Revenue contribution: **₹3.09M**
+
+Despite higher absolute contribution, revenue does not scale proportionally with tenure,
+indicating **no incremental monetization benefit from customer longevity**.
+
+*(Source: Customer Performance Analysis & Python Distribution)*
+
+---
+
+### 3️⃣ Product Mix Inefficiency
+
+- Low-margin products (**UPI, Wallet, BNPL**) account for **~60%+ of transaction volume**
+  but contribute a disproportionately lower share of revenue
+- Revenue per transaction remains low for high-frequency products
+- **BNPL** identified as:
+  - High-volume usage driver
+  - Low realized revenue contribution
+  - Exposure to regulatory and realization risk
+
+This reflects over-dependence on volume-led products at the expense of revenue quality.
+
+*(Source: Product Performance Summary & Efficiency Flags)*
+
+---
