@@ -577,6 +577,9 @@ revenue uplift through monetization efficiency rather than scale-driven growth.
 
 ### Optimization Impact Overview  
 *(Baseline vs Optimized — Realistic Scenario)*
+
+<p align="left"><img width="981" height="113" alt="optimization_kpis" src="https://github.com/user-attachments/assets/d2751038-d33a-4704-ad87-3ba93a1e8632" /></p>
+
 <p align="left"><img width="531" height="364" alt="comparision" src="https://github.com/user-attachments/assets/1acb4469-0c11-4659-89c2-707dc70bdb9e" /></p>
 
 
